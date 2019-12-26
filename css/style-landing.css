@@ -18,6 +18,11 @@ background-size: cover;
 
 }
 
+h1,p{
+    color:black;
+
+}
+
 #sections-area{
     position: relative; 
     height:100vh;
@@ -39,5 +44,12 @@ background-size: cover;
 .card-text{
 
     color:white;
+
 }
+
+.card-content{
+    padding: 1%;
+    color:white;
+}
+
 
