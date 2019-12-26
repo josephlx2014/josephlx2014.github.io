@@ -68,6 +68,8 @@ h1,p{
 .card-img-top{
    
     padding: 10px;
+    width: 50vw;
+    height: 80vh;
 
 }
 .card{
