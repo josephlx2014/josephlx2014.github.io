@@ -29,7 +29,7 @@ h1,p{
     overflow-y: scroll;
 }
 
-#section0 {padding:10vh;height:250%;color: #fff; }
+#section0 {padding:10vh;height:150%;color: #fff; }
 #section1 {padding:10vh;height:100%;color: #fff; }
 #section2 {padding:10vh;height:100%;color: #fff; }
 #section3 {padding:10vh;height:100%;color: #fff;}
@@ -51,6 +51,12 @@ h1,p{
 .jumbotron{
 
     background: rgba(73, 73, 73, 0.61);
+    ;
+}
+
+.display-1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .display-4{
