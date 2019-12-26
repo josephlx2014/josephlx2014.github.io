@@ -26,10 +26,10 @@ h1,p{
 #sections-area{
     position: relative; 
     height:100vh;
-    overflow-y: scroll;
+   /* overflow-y: scroll;*/
 }
 
-#section0 {padding:10vh;height:150%;color: #fff; }
+#section0 {padding:10vh;height:100%;color: #fff; }
 #section1 {padding:10vh;height:100%;color: #fff; }
 #section2 {padding:10vh;height:100%;color: #fff; }
 #section3 {padding:10vh;height:100%;color: #fff;}
@@ -38,20 +38,11 @@ h1,p{
    background-color: transparent;
 }
 
-.card-img-top{
-    height:300px;
-    width:400px;
-    padding: 10px;
-
-}
-
-.card{
-    background-color: transparent;
-}
 .jumbotron{
 
-    background: rgba(73, 73, 73, 0.61);
-    ;
+    /*background: rgba(73, 73, 73, 0.61);*/
+    background: transparent;
+    
 }
 
 .display-1{
@@ -74,13 +65,17 @@ h1,p{
 }
 
 
-.card-text{
-
-    color:white;
+.card-img-top{
+   
+    padding: 10px;
 
 }
+.card{
+    background-color: transparent;
+    
+}
 
-.card-content{
+.card-content, .card-text{
     padding: 1%;
     color:white;
 }
