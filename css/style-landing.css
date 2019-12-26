@@ -39,8 +39,10 @@ h1,p{
 }
 
 .card-img-top{
-    height:50%;
-    
+    height:300px;
+    width:400px;
+    padding: 10px;
+
 }
 
 .card{
