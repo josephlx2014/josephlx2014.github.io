@@ -5,7 +5,7 @@ position: relative;
 height:100vh;
 margin: 0;
 
-background-image: url("../assets/sunset.jpg");
+background-image: url("../assets/F4.jpg");
 
 height: 100%;
 
@@ -29,6 +29,7 @@ h1,p{
     overflow-y: scroll;
 }
 
+#section0 {padding:10vh;height:250%;color: #fff; }
 #section1 {padding:10vh;height:100%;color: #fff; }
 #section2 {padding:10vh;height:100%;color: #fff; }
 #section3 {padding:10vh;height:100%;color: #fff;}
@@ -37,9 +38,33 @@ h1,p{
    background-color: transparent;
 }
 
+.card-img-top{
+    height:50%;
+    
+}
+
 .card{
     background-color: transparent;
 }
+.jumbotron{
+
+    background: rgba(73, 73, 73, 0.61);
+}
+
+.display-4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+    }
+.jumbotron p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    color:white;
+
+}
+
 
 .card-text{
 
