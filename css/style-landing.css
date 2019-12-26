@@ -1,11 +1,16 @@
 body,html{
 
-    height:100%;
-    margin: 0;
+position: relative;
 
-    background-image: url("../assets/sunset.jpg");
+height:100vh;
+margin: 0;
+
+background-image: url("../assets/sunset.jpg");
 
 height: 100%;
+
+
+background-attachment: fixed;
 
 background-position: center;
 background-repeat: no-repeat;
@@ -13,8 +18,18 @@ background-size: cover;
 
 }
 
+#sections-area{
+    position: relative; 
+    height:100vh;
+    overflow-y: scroll;
+}
+
+#section1 {padding:10vh;height:100%;color: #fff; }
+#section2 {padding:10vh;height:100%;color: #fff; }
+#section3 {padding:10vh;height:100%;color: #fff;}
+
 .navbar{
-background-color: transparent;
+   background-color: transparent;
 }
 
 .card{
@@ -25,3 +40,4 @@ background-color: transparent;
 
     color:white;
 }
+

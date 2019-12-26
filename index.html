@@ -14,59 +14,133 @@
 </head>
 <body>
 
-<nav class="navbar sticky-top navbar-expand-lg ">   
+<nav id= "navbar-portfolio" class="navbar fixed-top navbar-expand-lg navbar-dark"> 
+
         <a class="navbar-brand" href="#">
             <img src="assets/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
             Yosef Development
-    
         </a>
        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navBarLinks">
        
-        <ul class="navbar-nav ml-auto">
+    
+            <ul class="nav  ml-auto nav-pills">
             
-                <li class="nav-item active ">
-                <a class="nav-link bounce" href="#">Projects <span class="sr-only">(current)</span></a>
-              </li>
-    
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#">About</a>
-               
-              </li>
-    
-        </ul>   
+                <li class="nav-item ">
+                    <a class="nav-link" href="#section1">Projects</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Contact</a>
+                </li>
+            
+                <li class="nav-item ">
+                    <a class="nav-link" href="#section3">About</a>
+                
+                </li>
+        
+            </ul>   
     
         </div>  
 </nav>
 
 <!--Navigation-->
 
-<div class="container">
-    <div class="row mt-2">
-      
-        <div class="col-sm">
-           
-         
-        
-        </div>
-        
-        <div class="col-sm">
-            
-            <div class="card shadow-lg">
-                <img src="assets/undraw_portfolio_website_lidw.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-        </div>
-        
+<div id="sections-area" data-spy="scroll" data-target="#navbar-portfolio" data-offset="0">
 
+    
+<!--Item 1-->
+<div id="section1" class="container-fluid">
+
+        <div class="row mt-2">
+          
+            <div class="col-sm">
+               
+             
+            
+            </div>
+            
+            <div class="col-sm">
+                
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                    <img src="assets/undraw_Mobile_application_mr4r.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+<!--Item 2-->
+<div id="section2" class="container-fluid">
+
+
+        <div class="row mt-2">
+          
+      
+            <div class="col-sm">
+                
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                    <img src="assets/undraw_web_developer_p3e5.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+    
+    
+            </div>
+            <div class="col-sm">
+               
+             
+            
+            </div>
+            
+            
+    
+        </div>
+    
     </div>
+    
+<!--Item 3-->
+<div id="section3" class="container-fluid">
+
+
+        <div class="row mt-2">
+          
+            <div class="col-sm">
+               
+             
+            
+            </div>
+            
+            <div class="col-sm">
+                
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                    <img src="assets/undraw_portfolio_update_nqhs.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+    
+    
+            </div>
+            
+    
+        </div>
+    
+    </div>
+    
 
 </div>
+
 
 
 
@@ -76,4 +150,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
