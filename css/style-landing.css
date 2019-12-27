@@ -18,52 +18,26 @@ background-size: cover;
 
 }
 
+body{
+
+    padding-top: 60px;
+}
+
 h1,p{
     color:black;
 
 }
 
-#sections-area{
-    position: relative; 
-    height:100vh;
-   /* overflow-y: scroll;*/
-}
-
-#section0 {padding:10vh;height:100%;color: #fff; }
-#section1 {padding:10vh;height:100%;color: #fff; }
-#section2 {padding:10vh;height:100%;color: #fff; }
-#section3 {padding:10vh;height:100%;color: #fff;}
-
 .navbar{
    background-color: transparent;
 }
 
-.jumbotron{
-
-    /*background: rgba(73, 73, 73, 0.61);*/
-    background: transparent;
-    
-}
-
-.display-1{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
-.display-4{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-
-    }
-.jumbotron p{
+.card p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace; 
     color:white;
 
 }
-
 
 .card-img-top{
    
@@ -74,7 +48,7 @@ h1,p{
 }
 .card{
     background-color: transparent;
-    
+    border: transparent;
 }
 
 .card-content, .card-text{
@@ -82,48 +56,32 @@ h1,p{
     color:white;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-    #carousel-col{
-
-        visibility: none;
-
-    }
-}
+    .card-img-top{
+       
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    
+    }}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-    #carousel-col{
-
-        visibility: none;
-
-    }
-
-}
+    .card-img-top{
+       
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    
+    }}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-    #carousel-col{
-
-        visibility: none;
-
-    }
-
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
-
+    .card-img-top{
+       
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+    
+    }}
