@@ -23,6 +23,15 @@ h1,p{
    background-color: transparent;
 }
 
+.nav-link{
+    color: white;
+
+}
+.nav-link:hover{
+    color:rgb(135, 135, 253);
+
+}
+
 .card p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace; 
