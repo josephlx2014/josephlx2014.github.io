@@ -50,11 +50,16 @@ h1,p{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
    
-   .carousel{
+   .carousel-class{
 
     visibility: collapse;
+    height: 0;
+
    }
-   
+   .carousel-inner{
+
+    height: 0;
+   }
    
     .card-img-top{
        
