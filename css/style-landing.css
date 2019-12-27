@@ -8,10 +8,23 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-
 body{
 
     padding-top: 60px;
+}
+
+#footer{
+    
+    height:20vh;
+    color:white;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#footer span{
+
+    padding:5%;
+
 }
 
 h1,p{
@@ -49,6 +62,7 @@ h1,p{
 .card{
     background-color: transparent;
     border: transparent;
+    
 }
 
 .card-content, .card-text{
