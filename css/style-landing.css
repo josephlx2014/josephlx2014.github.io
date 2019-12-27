@@ -1,4 +1,4 @@
-body,html{
+body{
 
 background-image: url("../assets/F4.jpg");
 
@@ -11,25 +11,6 @@ background-size: cover;
 body{
 
     padding-top: 60px;
-}
-
-#footer{
-    
-    height:20vh;
-    color:white;
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#footer span{
-
-    padding:5%;
-
-}
-
-h1,p{
-    color:black;
-
 }
 
 .navbar{
@@ -45,24 +26,39 @@ h1,p{
 
 }
 
-.card p{
+.marketing-message{
     text-align: center;
     font-family: 'Courier New', Courier, monospace; 
     color:white;
 
 }
 
+.display-3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    color:white;
 
+
+}
+
+.card-header{
+    
+    color:white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+
+}
 .card{
     background-color: transparent;
     border: transparent;
     
 }
 
-.card-content, .card-text{
-    padding: 1%;
-    color:white;
-}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -92,8 +88,6 @@ h1,p{
         height: 50vh;
     
     }
-
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -102,8 +96,8 @@ h1,p{
     .card-img-top{
    
         padding: 10px;
-        width: 100vw;
-        height: 50vh;
+        width: 95vw;
+        height: 80vh;
     
     }
 
@@ -116,8 +110,8 @@ h1,p{
     .card-img-top{
    
         padding: 10px;
-        width: 100vw;
-        height: 50vh;
+        width: 95vw;
+        height: 80vh;
     
     }
 
@@ -131,7 +125,7 @@ h1,p{
    
         padding: 10px;
         width: 50vw;
-        height: 80vh;
+        height: 70vh;
     
     }
 
