@@ -71,38 +71,45 @@ h1,p{
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+
+       .carousel-inner{
+      /*  height: 0;*/
+       }
+
+       .card-img-top{
    
-   .carousel-class{
-
-    visibility: collapse;
-    height: 0;
-
-   }
-   .carousel-inner{
-
-    height: 0;
-   }
-   
-    .card-img-top{
-       
-    /*    padding: 10px;
-        width: 200px;
-        height: 300px;
-    */
-    visibility: collapse;
-
-    }
+        padding: 10px;
+        width: 100vw;
+        height: 100vh;
     
+    }
 
+ 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
- 
+
+  
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 }
