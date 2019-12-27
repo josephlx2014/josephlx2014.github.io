@@ -1,13 +1,30 @@
 body{
 
 background-image: url("../assets/F4.jpg");
-
 background-attachment: fixed;
-
 background-repeat: no-repeat;
 background-size: cover;
 
 }
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:lawngreen;
+    text-decoration: none; 
+}
+
+a:active{
+    color: lawngreen;
+
+}
+
 body{
 
     padding-top: 60px;
@@ -21,10 +38,17 @@ body{
     color: white;
 
 }
+
 .nav-link:hover{
-    color:rgb(135, 135, 253);
+    color:lawngreen;
 
 }
+
+#navbar-toggler{
+    color:white;
+
+}
+
 
 .marketing-message{
     text-align: center;
@@ -63,10 +87,6 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-      /* .carousel-inner{
-        height: 0;
-       }*/
-
        .card-img-top{
    
         padding: 10px;
@@ -74,6 +94,7 @@ body{
         height: 50vh;
     
     }
+
 
  
 }
