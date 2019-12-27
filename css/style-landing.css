@@ -1,6 +1,6 @@
 body,html{
 
-background-image: url("../assets/F4.jpg");
+/*background-image: url("../assets/F4.jpg");*/
 
 background-attachment: fixed;
 
@@ -75,7 +75,7 @@ h1,p{
    
         padding: 10px;
         width: 100vw;
-        height: 100vh;
+        height: 50vh;
     
     }
 
@@ -89,7 +89,7 @@ h1,p{
    
         padding: 10px;
         width: 100vw;
-        height: 100vh;
+        height: 50vh;
     
     }
 
@@ -103,7 +103,7 @@ h1,p{
    
         padding: 10px;
         width: 100vw;
-        height: 100vh;
+        height: 50vh;
     
     }
 
