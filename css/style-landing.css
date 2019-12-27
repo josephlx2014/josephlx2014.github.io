@@ -1,6 +1,6 @@
 body,html{
 
-/*background-image: url("../assets/F4.jpg");*/
+background-image: url("../assets/F4.jpg");
 
 background-attachment: fixed;
 
@@ -74,7 +74,7 @@ h1,p{
        .card-img-top{
    
         padding: 10px;
-        width: 100vw;
+        width: 95vw;
         height: 50vh;
     
     }
@@ -88,7 +88,7 @@ h1,p{
     .card-img-top{
    
         padding: 10px;
-        width: 100vw;
+        width: 95vw;
         height: 50vh;
     
     }
@@ -116,8 +116,8 @@ h1,p{
     .card-img-top{
    
         padding: 10px;
-        width: 50vw;
-        height: 80vh;
+        width: 100vw;
+        height: 50vh;
     
     }
 
