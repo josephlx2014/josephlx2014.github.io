@@ -1,14 +1,9 @@
 body,html{
 
-position: relative;
-
-height:100vh;
+height:100%;
 margin: 0;
 
 background-image: url("../assets/F4.jpg");
-
-height: 100%;
-
 
 background-attachment: fixed;
 
@@ -61,8 +56,8 @@ h1,p{
     .card-img-top{
        
         padding: 10px;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 300px;
     
     }}
 
