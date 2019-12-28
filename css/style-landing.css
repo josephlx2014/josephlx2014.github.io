@@ -1,17 +1,31 @@
 body{
 
 background-image: url("../assets/F4.jpg");
-
 background-attachment: fixed;
-
 background-repeat: no-repeat;
 background-size: cover;
+padding-top: 60px;
 
 }
-body{
 
-    padding-top: 60px;
+a:link{
+    color:white;
 }
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:lawngreen;
+    text-decoration: none; 
+}
+
+a:active{
+    color: lawngreen;
+
+}
+
 
 .navbar{
    background-color: transparent;
@@ -21,12 +35,18 @@ body{
     color: white;
 
 }
+
 .nav-link:hover{
-    color:rgb(135, 135, 253);
+    color:lawngreen;
+}
+
+#navbar-toggler{
+    color:white;
 
 }
 
-.marketing-message{
+
+.marketing-message, .card-header{
     text-align: center;
     font-family: 'Courier New', Courier, monospace; 
     color:white;
@@ -39,13 +59,6 @@ body{
     color:white;
 
 
-}
-
-.card-header{
-    
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
 }
 
 .card p{
@@ -62,10 +75,6 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-      /* .carousel-inner{
-        height: 0;
-       }*/
-
        .card-img-top{
    
         padding: 10px;
@@ -73,6 +82,7 @@ body{
         height: 50vh;
     
     }
+
 
  
 }
@@ -113,8 +123,6 @@ body{
         height: 80vh;
     
     }
-
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
