@@ -1,6 +1,8 @@
 body{
+background: rgb(107,144,199); 
+background: linear-gradient(180deg, rgba(107,144,199,1) 0%, rgba(251,83,81,1) 100%);
 
-/*background-image: url("../assets/F4.jpg");*/
+background-image: url("../assets/F4.jpg");
 
 background-attachment: fixed;
 background-repeat: no-repeat;
