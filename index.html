@@ -11,14 +11,21 @@
     <link rel="stylesheet" href="assets/fontawesome-free-5.12.0-web/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/style-landing.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+
+
+
 
 </head>
 
-<body class="lozad animated fadeIn" data-src="assets/F4.jpg">
-    
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
+<body>
+  
+  <div data-src="assets/16.svg" >
+
+  </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse-link-section" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -98,14 +105,15 @@
 
 
         </div >
-
-        <div class="col-sm carousel-class animated bounceIn slow delay-1s" id="carousel-col">
+        <div  class="col-sm">
+      
+          <div class="col-sm carousel-class animated bounceIn slow delay-1s" id="carousel-col">
 
 
             <div id="carouselExampleSlidesOnly" class="carousel slide shadow carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
 
-                <div class="carousel-item " data-interval = "2000">
+                <div class="carousel-item active" data-interval = "1000">
 
                     <div class="card ">
                         <div class="card-header">
@@ -116,7 +124,7 @@
                         </div>    
                     </div>
 
-                  <div class="carousel-item active " data-interval = "500">
+                  <div class="carousel-item" data-interval = "1000">
                     
                     <div class="card  ">
                         <div class="card-header">
@@ -163,12 +171,29 @@
         </div>
 
 </div>  
+
+    </div>
+  </div>
 </div>
 
 
 </div>
+
+<script>
+
+$().ready(function(){
+ 
+  $("body").css("background-image", "url('assets/f4.jpg')");
+ 
+    
+
+
+});
+
+</script>
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
