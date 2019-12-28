@@ -183,8 +183,10 @@
 
 $().ready(function(){
  
-  $("body").css("background-image", "url('assets/F4.jpg')");
-
+  $(window).on("load",
+    $("body").css("background-image", "url('assets/F4.jpg')")
+  
+  );
 });
 
 </script>
