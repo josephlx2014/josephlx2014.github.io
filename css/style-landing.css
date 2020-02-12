@@ -1,9 +1,6 @@
 body{
-background: rgb(107,144,199); 
-background: linear-gradient(180deg, rgba(107,144,199,1) 0%, rgba(251,83,81,1) 100%);
-
-background-image: url("../assets/F4.webp");
-
+/*background-image: url("../assets/F4.webp");*/
+background-color: white-smoke;
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
@@ -21,7 +18,7 @@ a:visited{
 
 a:hover{
     color:lawngreen;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a:active{
@@ -44,22 +41,22 @@ a:active{
 }
 
 #navbar-toggler{
-    color:white;
+    color:black;
 
 }
 
 
 .marketing-message, .card-header{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace; 
-    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
 
 }
 
 .display-4{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace; 
-    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
 
 
 }
@@ -71,7 +68,7 @@ a:active{
 .card{
     background-color: transparent;
     border: transparent;
-    
+
 }
 
 #custom-carousel{
@@ -84,26 +81,26 @@ padding:5px;
 @media only screen and (max-width: 600px) {
 
        .card-img-top{
-   
+
         padding: 10px;
         width: 95vw;
         height: 50vh;
-    
+
     }
 
 
- 
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
     .card-img-top{
-   
+
         padding: 10px;
         width: 95vw;
         height: 50vh;
-    
+
     }
 }
 
@@ -111,11 +108,11 @@ padding:5px;
 @media only screen and (min-width: 768px) {
 
     .card-img-top{
-   
+
         padding: 10px;
         width: 95vw;
         height: 80vh;
-    
+
     }
 
 
@@ -125,11 +122,11 @@ padding:5px;
 @media only screen and (min-width: 992px) {
 
     .card-img-top{
-   
+
         padding: 10px;
         width: 95vw;
         height: 80vh;
-    
+
     }
 }
 
@@ -137,11 +134,11 @@ padding:5px;
 @media only screen and (min-width: 1200px) {
 
     .card-img-top{
-   
+
         padding: 10px;
         width: 50vw;
         height: 70vh;
-    
+
     }
 
 

@@ -2,9 +2,9 @@
 
 #sections-area{
     padding-top: 60px;
-    position: relative; 	     
-    height:100vh;	    
-   
+    position: relative;
+    height:100vh;
+
 }
 
 #section1 {padding:10vh;height:100%; }
@@ -13,32 +13,30 @@
 
 
 body{
-    background: rgb(107,144,199); 
-    background: linear-gradient(180deg, rgba(107,144,199,1) 0%, rgba(251,83,81,1) 100%);
-    
-    background-image: url("../assets/evening.png");
-    
+
+    /*background-image: url("../assets/evening.png");*/
+    background-color: white-smoke;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-    
+
     }
 
 
     .marketing-message, .card-header{
         text-align: center;
-        font-family: 'Courier New', Courier, monospace; 
+        font-family: 'Courier New', Courier, monospace;
         color:white;
-    
+
     }
-    
+
     .display-3{
         text-align: center;
-        font-family: 'Courier New', Courier, monospace; 
+        font-family: 'Courier New', Courier, monospace;
         color:white;
-    
-    
+
+
     }
     .card-img-top{
         height: 50vh;
@@ -48,11 +46,11 @@ body{
     .card{
         background-color: transparent;
         border: transparent;
-        
+
     }
     .card p{
         text-align: center;
-    
+
     }
 
     .card-text{
@@ -69,17 +67,17 @@ body{
     .navbar{
         background-color: transparent;
      }
-     
+
      .nav-link{
          color: white;
-     
+
      }
-     
+
      .nav-link:hover{
          color:lawngreen;
      }
-     
+
      #navbar-toggler{
          color:white;
-     
+
      }
