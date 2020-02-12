@@ -27,14 +27,14 @@ body{
     .marketing-message, .card-header{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
-        color:white;
+        color:black;
 
     }
 
     .display-3{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
-        color:white;
+        color:black;
 
 
     }
@@ -55,7 +55,7 @@ body{
 
     .card-text{
         text-align: center;
-        color: white;
+        color: black;
     }
 
     #Description{
@@ -69,7 +69,7 @@ body{
      }
 
      .nav-link{
-         color: white;
+         color: black;
 
      }
 
