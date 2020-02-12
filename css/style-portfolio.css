@@ -1,83 +1,84 @@
-
-
-#sections-area{
-    padding-top: 60px;
-    position: relative;
-    height:100vh;
-
+#sections-area {
+  padding-top: 10px;
+  position: relative;
+  height: 100vh;
 }
 
-#section1 {padding:10vh;height:100%; }
-#section2 {padding:10vh;height:100%; }
-#section3 {padding:10vh;height:100%;}
+#section1 {
+  padding: 10vh;
+  height: 100%;
+}
 
+#section2 {
+  padding: 10vh;
+  height: 100%;
+}
 
-body{
+#section3 {
+  padding: 10vh;
+  height: 100%;
+}
 
-    /*background-image: url("../assets/evening.png");*/
-    background-color: white-smoke;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
+body {
+  /*background-image: url("../assets/evening.png");*/
+  background-color: white-smoke;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    }
+.marketing-message, .card-header {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
 
+.display-3 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
 
-    .marketing-message, .card-header{
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-        color:black;
+.card-img-top {
+  height: 50vh;
+  width: 100%;
+}
 
-    }
+.card {
+  background-color: transparent;
+}
 
-    .display-3{
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-        color:black;
+.card p {
+  text-align: center;
+}
 
+.card-text {
+  text-align: center;
+  color: white;
+}
 
-    }
-    .card-img-top{
-        height: 50vh;
-        width: 100%;
-    }
+#Description {
+  background-color: transparent;
+  border: transparent;
+}
 
-    .card{
-        background-color: transparent;
-        border: transparent;
+.navbar {
+  background-color: rgba(0, 89, 148, 0.77);
+}
 
-    }
-    .card p{
-        text-align: center;
+.nav-link {
+  color: #b3cde0;
+}
 
-    }
+.nav-link:hover {
+  color: lawngreen !important;
+}
 
-    .card-text{
-        text-align: center;
-        color: white;
-    }
+.navbar-brand {
+  color: white;
+}
 
-    #Description{
-        background-color: transparent;
-        border: transparent;
-
-    }
-
-    .navbar{
-        background-color: transparent;
-     }
-
-     .nav-link{
-         color: black;
-
-     }
-
-     .nav-link:hover{
-         color:lawngreen;
-     }
-
-     #navbar-toggler{
-         color:white;
-
-     }
+.navbar-brand:hover {
+  color: lawngreen !important;
+}

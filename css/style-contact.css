@@ -1,9 +1,19 @@
-body{
+body {
+  background-color: white-smoke;
+  height: 90vh;
+}
+.nav-link {
+  color: #b3cde0;
+}
 
-    background-color: white-smoke;
-    height:90vh;
-    }
-iframe{
-  text-align: center;
+.nav-link:hover {
+  color: lawngreen !important;
+}
 
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: lawngreen !important;
 }
