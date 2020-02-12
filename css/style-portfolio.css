@@ -1,7 +1,7 @@
 #sections-area {
   /*padding-top: 10px;*/
   position: relative;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 #section1 {
@@ -10,6 +10,7 @@
   height: 100%;
   border: 1px;
   border-style: dashed;
+  padding-bottom: 10vh;
 }
 
 #section2 {
@@ -17,6 +18,7 @@
   height: 100%;
   border: 1px;
   border-style: dashed;
+    padding-bottom: 10vh;
 }
 
 #section3 {
@@ -24,6 +26,12 @@
   height: 100%;
   border: 1px;
   border-style: dashed;
+    padding-bottom: 10vh;
+}
+
+.jumbotron{
+  margin-top: 5px;
+
 }
 
 body {
