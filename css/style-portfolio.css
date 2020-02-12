@@ -1,22 +1,29 @@
 #sections-area {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   position: relative;
   height: 100vh;
 }
 
 #section1 {
-  padding: 10vh;
+  /*margin-top: 10vh;*/
+  padding-top: 10vh;
   height: 100%;
+  border: 1px;
+  border-style: dashed;
 }
 
 #section2 {
-  padding: 10vh;
+  padding-top: 10vh;
   height: 100%;
+  border: 1px;
+  border-style: dashed;
 }
 
 #section3 {
-  padding: 10vh;
+  padding-top: 10vh;
   height: 100%;
+  border: 1px;
+  border-style: dashed;
 }
 
 body {
@@ -46,21 +53,22 @@ body {
 }
 
 .card {
-  background-color: transparent;
+  /*background-color: transparent;*/
 }
 
 .card p {
   text-align: center;
 }
+.card-header{
 
-.card-text {
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: #6497b1;
+    font-size: 1.5em;
+    font-family: arial;
+
 }
 
-#Description {
-  background-color: transparent;
-  border: transparent;
+.card-text {
 }
 
 .navbar {
