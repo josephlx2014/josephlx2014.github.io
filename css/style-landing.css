@@ -44,10 +44,9 @@ a:active {
   color: lawngreen !important;
 }
 
-.marketing-message, .card-header {
+.marketing-message {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
+  font-family: 'Courier'
 }
 
 .display-4 {
@@ -56,8 +55,9 @@ a:active {
   color: black;
 }
 
-.card p {
-  text-align: center;
+.lead{
+text-align: center;
+
 }
 
 .card {
