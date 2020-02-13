@@ -1,37 +1,36 @@
-#sections-area {
-  /*padding-top: 10px;*/
-  position: relative;
-  /*height: 100vh;*/
+
+.title-box{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width:100%;
 }
 
-#section1 {
-  /*margin-top: 10vh;*/
-  padding-top: 10vh;
-  height: 100%;
-  border: 1px;
-  border-style: dashed;
-  padding-bottom: 10vh;
+.row{
+  padding: 1em;
+
 }
 
-#section2 {
-  padding-top: 10vh;
-  height: 100%;
-  border: 1px;
-  border-style: dashed;
-    padding-bottom: 10vh;
+#projects-subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 1em;
 }
 
-#section3 {
-  padding-top: 10vh;
-  height: 100%;
-  border: 1px;
-  border-style: dashed;
-    padding-bottom: 10vh;
+#projects-title{
+border: 1px;
+border-style: solid;
+border-radius: 10px;
+padding: 0.3em;
+font-family: 'Share Tech Mono', monospace;
+font-size: 3em;
+text-align: center;
 }
 
-.jumbotron{
+.jumbotron {
   margin-top: 5px;
-
+  border-width: 6px 0px 6px 0px;
+  border-color: gray;
 }
 
 body {
@@ -41,6 +40,19 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card-img-top {
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer .fab {
+  font-size: 3em;
 }
 
 .marketing-message, .card-header {
@@ -60,24 +72,18 @@ body {
   width: 100%;
 }
 
-.card {
-  /*background-color: transparent;*/
-}
-
 .card p {
   text-align: center;
 }
-.card-header{
 
-    text-align: center;
-    color: #6497b1;
-    font-size: 1.5em;
-    font-family: arial;
-
+.card-header {
+  text-align: center;
+  color: #6497b1;
+  font-size: 1.5em;
+  font-family: arial;
 }
 
-.card-text {
-}
+.card-text {}
 
 .navbar {
   background-color: rgba(0, 89, 148, 0.77);
@@ -98,3 +104,25 @@ body {
 .navbar-brand:hover {
   color: lawngreen !important;
 }
+
+.list-tecnologias {
+  color: gray;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
