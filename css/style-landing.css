@@ -38,6 +38,7 @@ a:active {
 
 .navbar-brand {
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 .navbar-brand:hover {

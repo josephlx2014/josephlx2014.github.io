@@ -1,30 +1,28 @@
-
-.title-box{
+.title-box {
   margin-top: 5em;
   margin-bottom: 5em;
-  width:100%;
+  width: 100%;
 }
 
-.row{
+.row {
   padding: 1em;
-
 }
 
-#projects-subtitle{
+#projects-subtitle {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   text-align: left;
   font-size: 1em;
 }
 
-#projects-title{
-border: 1px;
-border-style: solid;
-border-radius: 10px;
-padding: 0.3em;
-font-family: 'Share Tech Mono', monospace;
-font-size: 3em;
-text-align: center;
+#projects-title {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 0.3em;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 3em;
+  text-align: center;
 }
 
 .jumbotron {
@@ -99,6 +97,7 @@ body {
 
 .navbar-brand {
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 .navbar-brand:hover {
