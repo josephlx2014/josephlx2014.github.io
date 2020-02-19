@@ -1,6 +1,6 @@
 .title-box {
   margin-top: 5em;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   width: 100%;
 }
 
@@ -9,10 +9,12 @@
 }
 
 #projects-subtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: lighter;
   text-align: left;
-  font-size: 1em;
+  font-size: 0.8em;
+  /*border-style:dashed;*/
+  padding: 2em;
 }
 
 #projects-title {
@@ -20,9 +22,12 @@
   border-style: solid;
   border-radius: 10px;
   padding: 0.3em;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Major Mono Display', monospace;
   font-size: 3em;
   text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(128deg, rgba(255, 255, 255, 1) 0%, rgba(238, 172, 201, 1) 13%, rgba(148, 237, 255, 1) 100%);
+  color: white;
 }
 
 .jumbotron {
@@ -40,17 +45,39 @@ body {
   background-size: cover;
 }
 
-.card-img-top {
-  padding: 1em;
-  border-radius: 5px;
-}
 
 .card-footer {
   text-align: center;
+    font-size: 3em;
 }
 
-.card-footer .fab {
-  font-size: 3em;
+
+.fab{
+  font-size: 1em;
+}
+
+.card{
+width:100%;
+}
+
+.card-img-top{
+
+height:100%;
+width:100%;
+
+}
+.card-body {
+
+  padding: 3em;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(77deg, rgba(255, 255, 255, 1) 0%, rgba(238, 172, 201, 1) 0%, rgba(245, 246, 209, 1) 0%, rgba(148, 237, 255, 1) 100%);
+}
+
+.card-header {
+  text-align: center;
+  color: #6497b1;
+  font-size: 1.5em;
+  font-family: arial;
 }
 
 .marketing-message, .card-header {
@@ -63,28 +90,6 @@ body {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   color: black;
-}
-
-.card-img-top {
-  height: 50vh;
-  width: 100%;
-}
-
-.card p {
-  text-align: center;
-}
-
-.card-header {
-  text-align: center;
-  color: #6497b1;
-  font-size: 1.5em;
-  font-family: arial;
-}
-
-.card-text {}
-
-.navbar {
-  background-color: rgba(0, 89, 148, 0.77);
 }
 
 .nav-link {
