@@ -1,85 +1,123 @@
-
-
-#sections-area{
-    padding-top: 60px;
-    position: relative; 	     
-    height:100vh;	    
-   
+.title-box {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  width: 100%;
 }
 
-#section1 {padding:10vh;height:100%; }
-#section2 {padding:10vh;height:100%; }
-#section3 {padding:10vh;height:100%;}
+.row {
+  padding: 1em;
+}
 
+#projects-subtitle {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 0.8em;
+  /*border-style:dashed;*/
+  padding: 2em;
+}
 
-body{
-    background: rgb(107,144,199); 
-    background: linear-gradient(180deg, rgba(107,144,199,1) 0%, rgba(251,83,81,1) 100%);
-    
-    background-image: url("../assets/evening.png");
-    
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-    }
+#projects-title {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 0.3em;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(128deg, rgba(255, 255, 255, 1) 0%, rgba(238, 172, 201, 1) 13%, rgba(148, 237, 255, 1) 100%);
+  color: white;
+}
 
+.jumbotron {
+  margin-top: 5px;
+  border-width: 6px 0px 6px 0px;
+  border-color: gray;
+}
 
-    .marketing-message, .card-header{
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace; 
-        color:white;
-    
-    }
-    
-    .display-3{
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace; 
-        color:white;
-    
-    
-    }
-    .card-img-top{
-        height: 50vh;
-        width: 100%;
-    }
+body {
+  /*background-image: url("../assets/evening.png");*/
+  background-color: white-smoke;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    .card{
-        background-color: transparent;
-        border: transparent;
-        
-    }
-    .card p{
-        text-align: center;
-    
-    }
+.card-footer {
+  text-align: center;
+  font-size: 3em;
+}
 
-    .card-text{
-        text-align: center;
-        color: white;
-    }
+.fab {
+  font-size: 1em;
+}
 
-    #Description{
-        background-color: transparent;
-        border: transparent;
+.card {
+  width: 100%;
+}
 
-    }
+.card-body {
+  padding: 2em;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(77deg, rgba(255, 255, 255, 1) 0%, rgba(238, 172, 201, 1) 0%, rgba(245, 246, 209, 1) 0%, rgba(148, 237, 255, 1) 100%);
+}
 
-    .navbar{
-        background-color: transparent;
-     }
-     
-     .nav-link{
-         color: white;
-     
-     }
-     
-     .nav-link:hover{
-         color:lawngreen;
-     }
-     
-     #navbar-toggler{
-         color:white;
-     
-     }
+.card-header {
+  text-align: center;
+  color: #6497b1;
+  font-size: 1.5em;
+  font-family: arial;
+}
+
+.marketing-message, .card-header {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.display-3 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.nav-link {
+  color: #b3cde0;
+}
+
+.nav-link:hover {
+  color: lawngreen !important;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+  color: lawngreen !important;
+}
+
+.list-tecnologias {
+  color: gray;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

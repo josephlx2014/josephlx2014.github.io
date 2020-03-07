@@ -1,148 +1,116 @@
-body{
-background: rgb(107,144,199); 
-background: linear-gradient(180deg, rgba(107,144,199,1) 0%, rgba(251,83,81,1) 100%);
+body {
+  /*background-image: url("../assets/F4.webp");*/
+  background-color: white-smoke;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding-top: 60px;*/
+}
 
-background-image: url("../assets/F4.webp");
+a:link {
+  color: white;
+}
 
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-/*padding-top: 60px;*/
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: lawngreen;
+  text-decoration: none;
+}
+
+a:active {
+  color: lawngreen;
+}
+
+.navbar {
+  background-color: #353839;
+}
+
+.nav-link {
+  color: #b3cde0;
+}
+
+.nav-link:hover {
+  color: lawngreen !important;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+  color: lawngreen !important;
+}
+
+.marketing-message {
+  text-align: center;
+  font-family: 'Courier'
+}
+
+.display-4 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.lead{
+text-align: center;
 
 }
 
-a:link{
-    color:white;
+.card {
+  background-color: transparent;
+  border: transparent;
 }
 
-a:visited{
-    color:white;
+#custom-carousel {
+  padding: 5px;
 }
-
-a:hover{
-    color:lawngreen;
-    text-decoration: none; 
-}
-
-a:active{
-    color: lawngreen;
-
-}
-
-
-.navbar{
-   background-color: transparent;
-}
-
-.nav-link{
-    color: white;
-
-}
-
-.nav-link:hover{
-    color:lawngreen;
-}
-
-#navbar-toggler{
-    color:white;
-
-}
-
-
-.marketing-message, .card-header{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace; 
-    color:white;
-
-}
-
-.display-4{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace; 
-    color:white;
-
-
-}
-
-.card p{
-    text-align: center;
-
-}
-.card{
-    background-color: transparent;
-    border: transparent;
-    
-}
-
-#custom-carousel{
-padding:5px;
-
-}
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-       .card-img-top{
-   
-        padding: 10px;
-        width: 95vw;
-        height: 50vh;
-    
-    }
-
-
- 
+  .card-img-top {
+    padding: 10px;
+    width: 95vw;
+    height: 50vh;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-    .card-img-top{
-   
-        padding: 10px;
-        width: 95vw;
-        height: 50vh;
-    
-    }
+  .card-img-top {
+    padding: 10px;
+    width: 95vw;
+    height: 50vh;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-    .card-img-top{
-   
-        padding: 10px;
-        width: 95vw;
-        height: 80vh;
-    
-    }
-
-
+  .card-img-top {
+    padding: 10px;
+    width: 95vw;
+    height: 80vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
-    .card-img-top{
-   
-        padding: 10px;
-        width: 95vw;
-        height: 80vh;
-    
-    }
+  .card-img-top {
+    padding: 10px;
+    width: 95vw;
+    height: 80vh;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-    .card-img-top{
-   
-        padding: 10px;
-        width: 50vw;
-        height: 70vh;
-    
-    }
-
-
+  .card-img-top {
+    padding: 10px;
+    width: 50vw;
+    height: 70vh;
+  }
 }
