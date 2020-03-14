@@ -5,71 +5,78 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .row {
   padding: 1em;
 }
-.card-footer {
-  text-align: center;
-  font-size: 3em;
-}
-.fab {
-  font-size: 1em;
-}
+
 .card {
   width: 100%;
+  transition: background 0.5s;
 }
-.card:hover{
+
+.alert-heading {}
+
+.card:hover {
+  background-image: linear-gradient(to right top, #ff0091, #ec47b7, #d269d4, #b582e5, #9a95ec, #85a5f5, #73b3f9, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
+
+img:hover {
+  border-style: solid;
+  border-color: transparent;
+}
+
+img {
+  height: 8em;
+  width: 8em;
+  padding: 0.5em;
+}
+
 .card-header {
   text-align: center;
   color: #6497b1;
   font-size: 1.5em;
   font-family: arial;
 }
+
 .nav-link {
   color: #b3cde0;
 }
+
 .nav-link:hover {
   color: lawngreen !important;
 }
-.navbar-brand {
-  color: white;
-  font-family: 'Lobster', cursive;
-}
-.navbar-brand:hover {
-  color: lawngreen !important;
-}
-.list-tecnologias {
-  color: gray;
-  font-family: monospace;
-  text-align: center;
-  font-size: 1em;
-}
-img {
-  height: 8em;
-  width: 8em;
-  margin: 1em;
-}
+
 .footer {
   margin-top: 3em;
   background-color: #ddd;
   height: 100%;
+}
 
+.footer h5 {
+  font-weight: bold;
 }
-.lang-btn {
-  text-align: center;
+
+.navbar-brand {
+  color: white;
+  font-family: 'Lobster', cursive;
 }
-.lang-btn-sm img {
-  height: 4em;
-  width: 4em;
+
+.navbar-brand:hover {
+  color: lawngreen !important;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
