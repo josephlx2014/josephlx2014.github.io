@@ -1,67 +1,28 @@
-.title-box {
-  margin-top: 5em;
-  margin-bottom: 2em;
-  width: 100%;
-}
-
-.row {
-  padding: 1em;
-}
-
-#projects-subtitle {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: lighter;
-  text-align: left;
-  font-size: 0.8em;
-  /*border-style:dashed;*/
-  padding: 2em;
-}
-
-#projects-title {
-  border: 1px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 0.3em;
-  font-family: 'Major Mono Display', monospace;
-  font-size: 3em;
-  text-align: center;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(128deg, rgba(255, 255, 255, 1) 0%, rgba(238, 172, 201, 1) 13%, rgba(148, 237, 255, 1) 100%);
-  color: white;
-}
-
-.jumbotron {
-  margin-top: 5px;
-  border-width: 6px 0px 6px 0px;
-  border-color: gray;
-}
 
 body {
-  /*background-image: url("../assets/evening.png");*/
-  background-color: white-smoke;
+  background-image: url("/assets/background/f4.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.row {
+  padding: 1em;
 }
 
 .card-footer {
   text-align: center;
   font-size: 3em;
 }
-
 .fab {
   font-size: 1em;
 }
-
 .card {
   width: 100%;
-}
 
-.card-body {
-  padding: 2em;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(77deg, rgba(255, 255, 255, 1) 0%, rgba(238, 172, 201, 1) 0%, rgba(245, 246, 209, 1) 0%, rgba(148, 237, 255, 1) 100%);
+}
+.card:hover{
+
 }
 
 .card-header {
@@ -71,70 +32,37 @@ body {
   font-family: arial;
 }
 
-.marketing-message, .card-header {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
-}
-
-.display-3 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
-}
-
 .nav-link {
   color: #b3cde0;
 }
-
 .nav-link:hover {
   color: lawngreen !important;
 }
-
 .navbar-brand {
   color: white;
   font-family: 'Lobster', cursive;
 }
-
 .navbar-brand:hover {
   color: lawngreen !important;
 }
-
 .list-tecnologias {
   color: gray;
   font-family: monospace;
   text-align: center;
   font-size: 1em;
 }
-
 img {
   height: 8em;
   width: 8em;
   margin: 1em;
 }
 
-.logo-small{
-  height: 2em;
-  width: 2em;
-  margin: 1em;
+.footer {
+  margin-top: 3em;
+  background-color: #ddd;
+  height: 10em;
 }
-
-.footer{
-margin-top: 3em;
-background-color: #ddd;
-height: 10em;
-}
-
 .lang-btn {
-
-  text-align: center;
-  transition: 0.3s;
-}
-.lang-btn:hover{
-    background-color: #ddd;
-}
-
-.lang-btn-sm {
   text-align: center;
 }
 
@@ -142,18 +70,13 @@ height: 10em;
   height: 4em;
   width: 4em;
 }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
