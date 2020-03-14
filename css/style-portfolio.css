@@ -108,9 +108,21 @@ body {
 }
 
 img {
-  height: 5em;
-  width: 5em;
+  height: 8em;
+  width: 8em;
   margin: 1em;
+}
+
+.logo-small{
+  height: 2em;
+  width: 2em;
+  margin: 1em;
+}
+
+.footer{
+margin-top: 3em;
+background-color: #ddd;
+height: 10em;
 }
 
 .lang-btn {

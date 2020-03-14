@@ -1,0 +1,29 @@
+
+.card-group {
+  padding-top: 5%;
+}
+
+.card-img-top {
+height: 15em;
+}
+
+.navbar {
+  background-color: #353839;
+}
+
+.nav-link {
+  color: #b3cde0;
+}
+
+.nav-link:hover {
+  color: lawngreen !important;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+  color: lawngreen !important;
+}
