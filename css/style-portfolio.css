@@ -107,16 +107,29 @@ body {
   font-size: 1em;
 }
 
-img{
-height: 5em;
-width:5em;
-margin: 1em;
+img {
+  height: 5em;
+  width: 5em;
+  margin: 1em;
 }
 
-.lang-btn{
-  text-align:center;
+.lang-btn {
+
+  text-align: center;
+  transition: 0.3s;
+}
+.lang-btn:hover{
+    background-color: #ddd;
 }
 
+.lang-btn-sm {
+  text-align: center;
+}
+
+.lang-btn-sm img {
+  height: 4em;
+  width: 4em;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
