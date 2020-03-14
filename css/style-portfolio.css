@@ -114,7 +114,12 @@ img {
 }
 
 .lang-btn {
+
   text-align: center;
+  transition: 0.3s;
+}
+.lang-btn:hover{
+    background-color: #ddd;
 }
 
 .lang-btn-sm {
